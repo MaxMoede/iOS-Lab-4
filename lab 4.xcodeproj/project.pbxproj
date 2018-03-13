@@ -14,6 +14,17 @@
 		50CCE25320168A820046F41C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50CCE25120168A820046F41C /* LaunchScreen.storyboard */; };
 		50CCE25E20168A820046F41C /* lab_4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CCE25D20168A820046F41C /* lab_4Tests.swift */; };
 		50CCE26920168A820046F41C /* lab_4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CCE26820168A820046F41C /* lab_4UITests.swift */; };
+		50CCE27720168C610046F41C /* bandTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CCE27620168C610046F41C /* bandTable.swift */; };
+		50CCE27920168D470046F41C /* bandClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CCE27820168D470046F41C /* bandClass.swift */; };
+		50CCE27B20168FDE0046F41C /* bandCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CCE27A20168FDE0046F41C /* bandCell.swift */; };
+		50CCE27F201915EE0046F41C /* judasPriest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50CCE27C201915ED0046F41C /* judasPriest.jpg */; };
+		50CCE280201915EE0046F41C /* kiss.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50CCE27D201915ED0046F41C /* kiss.jpg */; };
+		50CCE281201915EE0046F41C /* ozzy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50CCE27E201915ED0046F41C /* ozzy.jpg */; };
+		50CCE28720192F8E0046F41C /* eric.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50CCE28220192F8D0046F41C /* eric.jpg */; };
+		50CCE28820192F8E0046F41C /* metallica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50CCE28320192F8D0046F41C /* metallica.jpg */; };
+		50CCE28920192F8E0046F41C /* motley.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50CCE28420192F8D0046F41C /* motley.jpg */; };
+		50CCE28A20192F8E0046F41C /* jimi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50CCE28520192F8D0046F41C /* jimi.jpg */; };
+		50CCE28B20192F8E0046F41C /* ohio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50CCE28620192F8E0046F41C /* ohio.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +58,17 @@
 		50CCE26420168A820046F41C /* lab 4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lab 4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50CCE26820168A820046F41C /* lab_4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lab_4UITests.swift; sourceTree = "<group>"; };
 		50CCE26A20168A820046F41C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50CCE27620168C610046F41C /* bandTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bandTable.swift; sourceTree = "<group>"; };
+		50CCE27820168D470046F41C /* bandClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bandClass.swift; sourceTree = "<group>"; };
+		50CCE27A20168FDE0046F41C /* bandCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bandCell.swift; sourceTree = "<group>"; };
+		50CCE27C201915ED0046F41C /* judasPriest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = judasPriest.jpg; sourceTree = "<group>"; };
+		50CCE27D201915ED0046F41C /* kiss.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kiss.jpg; sourceTree = "<group>"; };
+		50CCE27E201915ED0046F41C /* ozzy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ozzy.jpg; sourceTree = "<group>"; };
+		50CCE28220192F8D0046F41C /* eric.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eric.jpg; sourceTree = "<group>"; };
+		50CCE28320192F8D0046F41C /* metallica.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = metallica.jpg; sourceTree = "<group>"; };
+		50CCE28420192F8D0046F41C /* motley.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = motley.jpg; sourceTree = "<group>"; };
+		50CCE28520192F8D0046F41C /* jimi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jimi.jpg; sourceTree = "<group>"; };
+		50CCE28620192F8E0046F41C /* ohio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ohio.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +122,18 @@
 				50CCE24820168A820046F41C /* AppDelegate.swift */,
 				50CCE24A20168A820046F41C /* ViewController.swift */,
 				50CCE24C20168A820046F41C /* Main.storyboard */,
+				50CCE27620168C610046F41C /* bandTable.swift */,
+				50CCE27820168D470046F41C /* bandClass.swift */,
+				50CCE27A20168FDE0046F41C /* bandCell.swift */,
 				50CCE24F20168A820046F41C /* Assets.xcassets */,
+				50CCE27C201915ED0046F41C /* judasPriest.jpg */,
+				50CCE27D201915ED0046F41C /* kiss.jpg */,
+				50CCE27E201915ED0046F41C /* ozzy.jpg */,
+				50CCE28220192F8D0046F41C /* eric.jpg */,
+				50CCE28520192F8D0046F41C /* jimi.jpg */,
+				50CCE28320192F8D0046F41C /* metallica.jpg */,
+				50CCE28420192F8D0046F41C /* motley.jpg */,
+				50CCE28620192F8E0046F41C /* ohio.jpg */,
 				50CCE25120168A820046F41C /* LaunchScreen.storyboard */,
 				50CCE25420168A820046F41C /* Info.plist */,
 			);
@@ -232,6 +265,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50CCE28820192F8E0046F41C /* metallica.jpg in Resources */,
+				50CCE27F201915EE0046F41C /* judasPriest.jpg in Resources */,
+				50CCE28B20192F8E0046F41C /* ohio.jpg in Resources */,
+				50CCE281201915EE0046F41C /* ozzy.jpg in Resources */,
+				50CCE28720192F8E0046F41C /* eric.jpg in Resources */,
+				50CCE28920192F8E0046F41C /* motley.jpg in Resources */,
+				50CCE280201915EE0046F41C /* kiss.jpg in Resources */,
+				50CCE28A20192F8E0046F41C /* jimi.jpg in Resources */,
 				50CCE25320168A820046F41C /* LaunchScreen.storyboard in Resources */,
 				50CCE25020168A820046F41C /* Assets.xcassets in Resources */,
 				50CCE24E20168A820046F41C /* Main.storyboard in Resources */,
@@ -260,7 +301,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				50CCE24B20168A820046F41C /* ViewController.swift in Sources */,
+				50CCE27B20168FDE0046F41C /* bandCell.swift in Sources */,
+				50CCE27720168C610046F41C /* bandTable.swift in Sources */,
 				50CCE24920168A820046F41C /* AppDelegate.swift in Sources */,
+				50CCE27920168D470046F41C /* bandClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

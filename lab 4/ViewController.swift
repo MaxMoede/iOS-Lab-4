@@ -10,8 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var bandThing : bandClass?
+    
+    @IBOutlet weak var bandPic: UIImageView!
+    @IBOutlet weak var membersLabel: UILabel!
+    @IBOutlet weak var yearsLabel: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        nameLabel.text! = bandThing!.name
+        membersLabel.text! = "number of members: " + String(bandThing!.numMembers)
+        yearsLabel.text! = "years active: " + String(bandThing!.yearsActive)
+        bandPic.image = UIImage(named: bandThing!.logoFileName)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
